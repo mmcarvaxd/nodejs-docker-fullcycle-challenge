@@ -28,7 +28,7 @@ connection.query(sql, (resp, results) => {
         })
 
         app.get('/', (req,res) => {
-            res.send(`<h1>Full Cycle</h1>
+            res.send(`<h1>Full Cycle Rocks!</h1>
             <table>
                 <tr>
                 <th>ID</th>
